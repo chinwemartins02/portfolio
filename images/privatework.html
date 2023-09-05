@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            background: url(./vally\ \(7\).jpg);
+            background-size: cover;
+            background-position: center;
+            font-family: sans-serif;
+
+        }
+        .loginform{
+            width: 320px;
+            height: 420px;
+            background: #000;
+            color: #fff;
+            top: 50%;
+            left: 50%;
+            position: absolute;
+            transform:translate(-50%, -50%);
+            box-sizing: border-box;
+            padding: 70px  30px;
+
+        }
+
+        .girl{
+            width:100px;
+            height:100px;
+            border-radius: 50%;
+            position: absolute;
+            top: -50px;
+            left: calc(50% - 50px);
+        }
+
+        h1{
+            margin: 0;
+            padding: 0 0 20px;
+            text-align: center;
+            font-size: 22px;
+        }
+        .loginform p{
+            margin: 0;
+            padding: 0;
+            font-weight: bold;
+        }
+
+        .loginform input{
+            width: 100%;
+            margin-bottom: 20px;
+
+        }
+
+        .loginform input[type="text" ], input[type="password"]
+        {
+            border: none;
+            border-bottom: 1px solid violet;
+            background: transparent;
+            outline: none;
+            height: 40px;
+            color: #fff;
+            font-size: 16px;
+
+        }
+
+        button{
+            font-size: 1rem;
+            margin-top: 1.8rem;
+            padding: 10px 0;
+            border-radius: 20px;
+            outline: none;
+            border: none;
+            width: 90%;
+            color: #fff;
+            cursor: pointer;
+            background: violet;
+        }
+
+        button:hover{
+            background: red;
+        }
+
+        a{
+            color: violet;
+            position: relative;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="loginform">
+        <img src="./female avartar2.png" class="girl" >
+        <h1>Welcome</h1>
+        <span>Sign in by entering the information below</span>
+        <form action="">
+            <p><i class="fa fa-user" aria-hidden="true"></i>Username</p>
+            <input type="text" 
+             name="" 
+              placeholder="please enter username">
+              <br>
+              
+              <p><i class="fa fa-unlock-alt" aria-hidden="true"><br></i>Password</p>
+              
+              <input type="password"  
+              id="" 
+               placeholder="please enter password"><br>
+
+               <button>Log in</button> <br><br>
+
+               <div class="Member">Don`t have an account?<a href="./login.html">Sign Up</a>
+        </form>
+    </div>
+</body>
+</html>
