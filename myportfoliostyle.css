@@ -36,8 +36,8 @@ h1{
 
 .flexbox{
     position: relative;
-    width: 400px;  
-    height: 350px;
+    width: 300px;  
+    height: 250px;
     color: white;
     font-size: 25px;
     text-align: center;
@@ -53,7 +53,7 @@ h1{
 
 .flexbox img{
     width: 100%;
-    height: auto;
+    height: 100%;
 }
 
 .slider{
