@@ -41,6 +41,10 @@ h1{
     color: white;
     font-size: 25px;
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
     line-height: 200px;
     border-radius: 6px;
     margin: 10px;
@@ -60,6 +64,7 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
     transition: width 0.2, height 0.2;
 }
 
