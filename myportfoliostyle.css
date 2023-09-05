@@ -31,10 +31,11 @@ h1{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 20px;
+    gap: 100px;
 }
 
 .flexbox{
+    position: relative;
     width: 200px;
     height: 200px;
     color: white;
@@ -47,6 +48,10 @@ h1{
 }
 
 .slider{
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform: translate(-50%, -50%);
     width: 0%;
     height: 0%;
     border-radius: 6px;
