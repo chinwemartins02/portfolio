@@ -79,13 +79,13 @@
     
   }
 
-  .image-blog:hover{
+  .image1 img:hover{
     -ms-transform: scale(1.1);  /*IE 9 */
  -webkit-transform: scale(1.1); /* Safari 3-8 */
  transform: scale(1.1); 
   }
 
-  .image2:hover{
+  .image2 img:hover{
     -ms-transform: scale(1.1);  /*IE 9 */
  -webkit-transform: scale(1.1); /* Safari 3-8 */
  transform: scale(1.1); 
