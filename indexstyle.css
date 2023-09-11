@@ -79,7 +79,7 @@ p.demo1 {
 button {
     position: absolute;
     margin-left: 600px;
-    margin-top: 410px;
+    margin-top: 110px;
     width: 250px;
     height: 40px;
     border: none;
@@ -90,15 +90,44 @@ button {
     cursor: pointer;
     font-size: 15px;
     bottom: 80px;
-}
-button:hover {
-    background-color: red;
-    border: none;
+    transition: all 0.5s;
+  cursor: pointer;
 }
 
-button:active {
+
+
+
+
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+    /* background-color: red; */
+    
+
+/* button:active {
     background-color: goldenrod;
-}
+} */
 
 
 img.icon1 {
@@ -232,5 +261,34 @@ nav ul li a:hover{
 
 i{
     font-size: 28px;
+
 }
 
+.infinity {
+    position: absolute;
+    border: none;
+    padding: 7px 14px;
+    border-radius: 4px;
+    background-color: #fff;
+    top: 30%;
+    position: fixed;
+  }
+  
+  .infinity svg {
+    background-color: #fff;
+    animation: spin 3s infinite linear;
+  }
+  @keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .line {
+    border-bottom: 10px solid #ffb400;
+    width: 328px;
+    margin-top: -5px;
+  }
