@@ -272,3 +272,14 @@ i{
     a:hover{
         color: red;
     }
+
+input[type="text"] {
+        width: 180px;
+        margin-right: 10px;
+      }
+
+      input[type="email"] {
+        width: 180px;
+        margin-right: 10px;
+      }
+      
